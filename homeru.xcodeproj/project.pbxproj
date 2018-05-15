@@ -7,14 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D7D7DFC20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D7DFB20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png */; };
+		5D7D7DFF20AADCEF003AEFFC /* しらさぎ本丸ゴシックMini.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D7DFD20AADB94003AEFFC /* しらさぎ本丸ゴシックMini.otf */; };
+		5D7D7E0120AAE8A3003AEFFC /* font_1_honokamarugo_1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D7E0020AAE0CB003AEFFC /* font_1_honokamarugo_1.1.ttf */; };
 		5DA2665520A5F2F20030B874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2665420A5F2F20030B874 /* AppDelegate.swift */; };
 		5DA2665720A5F2F20030B874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2665620A5F2F20030B874 /* ViewController.swift */; };
 		5DA2665A20A5F2F20030B874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2665820A5F2F20030B874 /* Main.storyboard */; };
 		5DA2665C20A5F2F20030B874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2665B20A5F2F20030B874 /* Assets.xcassets */; };
 		5DA2665F20A5F2F20030B874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2665D20A5F2F20030B874 /* LaunchScreen.storyboard */; };
+		5DA2666720A5F3130030B874 /* ほめ.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2666620A5F3130030B874 /* ほめ.png */; };
+		5DA2666920A5F69B0030B874 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2666820A5F69B0030B874 /* homeViewController.swift */; };
+		5DA2666E20A5F9DF0030B874 /* ganabriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2666C20A5F9DF0030B874 /* ganabriTableViewCell.swift */; };
+		5DA2666F20A5F9DF0030B874 /* ganbariTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2666D20A5F9DF0030B874 /* ganbariTableViewCell.xib */; };
+		5DA2667D20A61B6C0030B874 /* otsukareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2667C20A61B6C0030B874 /* otsukareViewController.swift */; };
+		5DA2667F20A621C40030B874 /* ganbariTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2667E20A621C40030B874 /* ganbariTableViewController.swift */; };
+		5DA2668120A629F30030B874 /* クマ.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA2668020A629F30030B874 /* クマ.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		5D7D7DFE20AADCC5003AEFFC /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
+		5D7D7DFB20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2018-05-15 17.40.48.png"; sourceTree = "<group>"; };
+		5D7D7DFD20AADB94003AEFFC /* しらさぎ本丸ゴシックMini.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "しらさぎ本丸ゴシックMini.otf"; path = "/Users/nio_sayaka/Desktop/Life is Tech!/homeru/しらさぎ本丸ゴシックMini.otf"; sourceTree = "<absolute>"; };
+		5D7D7E0020AAE0CB003AEFFC /* font_1_honokamarugo_1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_1_honokamarugo_1.1.ttf; sourceTree = "<group>"; };
 		5DA2665120A5F2F20030B874 /* homeru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeru.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA2665420A5F2F20030B874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA2665620A5F2F20030B874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +47,13 @@
 		5DA2665B20A5F2F20030B874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA2665E20A5F2F20030B874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA2666020A5F2F20030B874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA2666620A5F3130030B874 /* ほめ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ほめ.png"; sourceTree = "<group>"; };
+		5DA2666820A5F69B0030B874 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		5DA2666C20A5F9DF0030B874 /* ganabriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganabriTableViewCell.swift; sourceTree = "<group>"; };
+		5DA2666D20A5F9DF0030B874 /* ganbariTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ganbariTableViewCell.xib; sourceTree = "<group>"; };
+		5DA2667C20A61B6C0030B874 /* otsukareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = otsukareViewController.swift; sourceTree = "<group>"; };
+		5DA2667E20A621C40030B874 /* ganbariTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganbariTableViewController.swift; sourceTree = "<group>"; };
+		5DA2668020A629F30030B874 /* クマ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "クマ.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,8 +70,18 @@
 		5DA2664820A5F2F20030B874 = {
 			isa = PBXGroup;
 			children = (
+				5DA2667E20A621C40030B874 /* ganbariTableViewController.swift */,
+				5DA2667C20A61B6C0030B874 /* otsukareViewController.swift */,
+				5DA2666C20A5F9DF0030B874 /* ganabriTableViewCell.swift */,
+				5DA2666D20A5F9DF0030B874 /* ganbariTableViewCell.xib */,
+				5DA2666820A5F69B0030B874 /* homeViewController.swift */,
 				5DA2665320A5F2F20030B874 /* homeru */,
 				5DA2665220A5F2F20030B874 /* Products */,
+				5DA2666620A5F3130030B874 /* ほめ.png */,
+				5DA2668020A629F30030B874 /* クマ.png */,
+				5D7D7DFB20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png */,
+				5D7D7DFD20AADB94003AEFFC /* しらさぎ本丸ゴシックMini.otf */,
+				5D7D7E0020AAE0CB003AEFFC /* font_1_honokamarugo_1.1.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +118,7 @@
 				5DA2664F20A5F2F20030B874 /* Resources */,
 			);
 			buildRules = (
+				5D7D7DFE20AADCC5003AEFFC /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -123,7 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7D7E0120AAE8A3003AEFFC /* font_1_honokamarugo_1.1.ttf in Resources */,
+				5D7D7DFF20AADCEF003AEFFC /* しらさぎ本丸ゴシックMini.otf in Resources */,
+				5DA2668120A629F30030B874 /* クマ.png in Resources */,
 				5DA2665F20A5F2F20030B874 /* LaunchScreen.storyboard in Resources */,
+				5D7D7DFC20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png in Resources */,
+				5DA2666F20A5F9DF0030B874 /* ganbariTableViewCell.xib in Resources */,
+				5DA2666720A5F3130030B874 /* ほめ.png in Resources */,
 				5DA2665C20A5F2F20030B874 /* Assets.xcassets in Resources */,
 				5DA2665A20A5F2F20030B874 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +186,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DA2665720A5F2F20030B874 /* ViewController.swift in Sources */,
+				5DA2667D20A61B6C0030B874 /* otsukareViewController.swift in Sources */,
+				5DA2667F20A621C40030B874 /* ganbariTableViewController.swift in Sources */,
+				5DA2666E20A5F9DF0030B874 /* ganabriTableViewCell.swift in Sources */,
+				5DA2666920A5F69B0030B874 /* homeViewController.swift in Sources */,
 				5DA2665520A5F2F20030B874 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +328,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6WHP9P9TL;
 				INFOPLIST_FILE = homeru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.homeru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +344,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6WHP9P9TL;
 				INFOPLIST_FILE = homeru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.homeru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
