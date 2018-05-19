@@ -16,8 +16,6 @@ class ganbariTableViewController: UITableViewController {
     
     let saveData = UserDefaults.standard
     
-    var ganbari = [String]()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -55,13 +53,13 @@ class ganbariTableViewController: UITableViewController {
     
     func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
         if editingStyle == UITableViewCellEditingStyle.delete{
-            ganbari.remove(at: indexPath.row)
-            UserDefaults.standard.set(ganbari, forKey: "ganbari")
+            taishoArray.remove(at: indexPath.row)
+            UserDefaults.standard.set(taishoArray, forKey: "ganbari")
             tableView.reloadData()
-        }
+        }//Cellに表示されている文字を削除するメゾット
     }
     
     override func viewDidAppear(_ animated: Bool) {
         tableView.reloadData()
-    }
+    }//再読み込みメゾット
 }

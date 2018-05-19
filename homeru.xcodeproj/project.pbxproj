@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D7D7DFC20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D7DFB20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png */; };
 		5D7D7DFF20AADCEF003AEFFC /* しらさぎ本丸ゴシックMini.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D7DFD20AADB94003AEFFC /* しらさぎ本丸ゴシックMini.otf */; };
 		5D7D7E0120AAE8A3003AEFFC /* font_1_honokamarugo_1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D7D7E0020AAE0CB003AEFFC /* font_1_honokamarugo_1.1.ttf */; };
 		5D7D7E0820AAF6C2003AEFFC /* ganbariTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7D7E0620AAF6C2003AEFFC /* ganbariTableViewCell.swift */; };
@@ -37,7 +36,6 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXFileReference section */
-		5D7D7DFB20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2018-05-15 17.40.48.png"; sourceTree = "<group>"; };
 		5D7D7DFD20AADB94003AEFFC /* しらさぎ本丸ゴシックMini.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "しらさぎ本丸ゴシックMini.otf"; path = "/Users/nio_sayaka/Desktop/Life is Tech!/homeru/しらさぎ本丸ゴシックMini.otf"; sourceTree = "<absolute>"; };
 		5D7D7E0020AAE0CB003AEFFC /* font_1_honokamarugo_1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_1_honokamarugo_1.1.ttf; sourceTree = "<group>"; };
 		5D7D7E0620AAF6C2003AEFFC /* ganbariTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganbariTableViewCell.swift; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 				5DA2665220A5F2F20030B874 /* Products */,
 				5DA2666620A5F3130030B874 /* ほめ.png */,
 				5DA2668020A629F30030B874 /* クマ.png */,
-				5D7D7DFB20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png */,
 				5D7D7DFD20AADB94003AEFFC /* しらさぎ本丸ゴシックMini.otf */,
 				5D7D7E0020AAE0CB003AEFFC /* font_1_honokamarugo_1.1.ttf */,
 			);
@@ -171,7 +168,6 @@
 				5D7D7DFF20AADCEF003AEFFC /* しらさぎ本丸ゴシックMini.otf in Resources */,
 				5DA2668120A629F30030B874 /* クマ.png in Resources */,
 				5DA2665F20A5F2F20030B874 /* LaunchScreen.storyboard in Resources */,
-				5D7D7DFC20AAD4CC003AEFFC /* スクリーンショット 2018-05-15 17.40.48.png in Resources */,
 				5DA2666720A5F3130030B874 /* ほめ.png in Resources */,
 				5DA2665C20A5F2F20030B874 /* Assets.xcassets in Resources */,
 				5DA2665A20A5F2F20030B874 /* Main.storyboard in Resources */,
@@ -335,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.homeru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.homeru;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
